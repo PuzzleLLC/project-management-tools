@@ -20,10 +20,10 @@ def lrs(f: str) -> (float, float):
 features = """
 Defect Calculators on Handheld,30-55,3
 Louder Sound on Handheld Interaction,15-30,1
-Human-Based Scale Integration,25-60,7-8
+Human-Based Scale Integration,25-60,9-11
 Force a Sync After Printing,5-10,4
 Email Reminders for Unfinished FEMT Forms,35-50,7
-Price Entry/Management (UI and Security),80-140,8-10
+Price Entry/Management (UI and Security),90-170,11
 Deck Field for Loads (e.g. G3),5-15,2
 """
 
@@ -75,7 +75,7 @@ ax.spines['top'].set_visible(False)
 plt.xticks([])
 plt.yticks([])
 
-ax.set_ylim(0, 1)
-ax.set_xlim(0, 1.75)
+ax.set_ylim(-.05, 1)
+ax.set_xlim(-.05, 1.75)
 
 plt.show()
